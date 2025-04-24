@@ -1,0 +1,55 @@
+.navbar {
+    height: 80px; /* Establece una altura fija para el navbar */
+    background-color: #E991AE; /* Color de fondo del navbar */
+}
+
+.nav-link {
+    color: #ffffff !important; /* Color de texto original */
+    font-size: 20px; /* Tamaño del texto */
+    transition: color 0.3s, background-color 0.3s; /* Agregar transición de color de fondo y texto */
+    font-family: 'Baskerville', serif; /* Fuente Baskerville */
+    padding: 20px 15px; /* Ajustar el padding para alinear la altura con el navbar */
+    display: flex; /* Usar flex para alinear elementos internamente */
+    align-items: center; /* Alineación vertical central */
+    height: 80px; /* Altura completa del contenedor padre (navbar) */
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+.img {
+    height: 70px; /* Ajuste de la altura del logo para coincidir con el navbar */
+    width: 70px; /* Ajuste automático del ancho para mantener la proporción */
+    padding-right: 20px; /* Espacio a la derecha del logo */
+    
+}
+
+.navbar .navbar-brand .imagentama {
+    margin-top: 10px !important; 
+    margin-bottom: 10px !important;
+}
+
+
+.navbar-nav {
+    align-items: center; /* Alineación vertical de los elementos de navegación */
+    height: 100%; /* Establece la altura al 100% del navbar */
+}
+
+.nav-item:hover .nav-link {
+    background-color: #ffffff !important; /* Cambiar el fondo a blanco al pasar el ratón */
+    color: #E991AE !important; /* Cambiar el color del texto a rosa */
+}
+
+.dropdown-menu {
+    background-color: #293847; /* Color de fondo de los menús desplegables */
+}
+
+.dropdown-item {
+    color: #ffffff !important; /* Color de texto de los elementos desplegables */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para hover */
+}
+
+.dropdown-item:hover {
+    background-color: #DEDB03 !important; /* Fondo amarillo para elementos desplegables en hover */
+    color: #293847 !important; /* Color de texto en hover para elementos desplegables */
+    font-size: 22px; /* Tamaño de fuente en hover para elementos desplegables */
+}
+

@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/portadainicio.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+    text-align: center;
+    width: 80%;
+    max-width: 600px; /* Ajusta el ancho máximo según tu preferencia */
+    margin: auto;
+}
+
+.btn-inicio {
+    margin-top: 5px; /* Espacio superior para separar del contenido anterior */
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+/* Estilos específicos para los botones de Bootstrap */
+.btn {
+    border-radius: 10px;
+    font-size: 40px;
+    border-color: #E991AE;
+    width: 150px;
+    height: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E991AE;
+    text-align: center;
+    background-color: #ffffff;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para los cambios de color */
+}
+
+/* Estilo para el botón cuando se pasa el cursor sobre él */
+.btn:hover {
+    background-color: #E991AE;
+    color: #FFFFFF;
+}
+
+/* Estilo para el botón cuando no se está sobre él */
+.btn:not(:hover) {
+    background-color: #ffffff;
+    color: #E991AE;
+}
+
+.textouno {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #447742;
+    font-family: Baskerville;
+    font-style: italic;
+}
+
+.textdos {
+    margin-bottom: 20px;
+    color: #447742;
+    font-family: Baskerville;
+    font-size: 20px;
+}
+
+.imagen {
+    width: 250px;
+    height: 250px;
+}
+
+.contenedorimagen {
+    margin-bottom: 20px;
+    animation: floating 3s ease-in-out infinite; /* Aplicamos la animación */
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Movimiento hacia arriba */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+

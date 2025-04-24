@@ -1,0 +1,80 @@
+.footer {
+    background-color: #DBA740; /* Color existente */
+    color: white;
+    padding: 40px 0;
+    font-family: 'Baskerville', serif;
+    font-size: 18px; /* Tamaño de fuente aumentado */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera */
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px; /* Ajustado para mejor visualización */
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 1px solid #fff2; /* Separador sutil */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around; /* Cambiado para distribuir espacio */
+    width: 100%;
+}
+
+.links-column h4 {
+    margin-bottom: 10px;
+    font-family: 'Baskerville', serif;
+    font-size: 25px; /* Tamaño de fuente más grande para títulos */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Sombra de texto para título */
+}
+
+.links-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-column ul li a {
+    color: #D8BFD8;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    transition: color 0.3s, transform 0.3s; /* Transición con transformación */
+    font-family: 'Baskerville', serif;
+    font-size: 20px; /* Tamaño de fuente aumentado para enlaces */
+}
+
+.links-column ul li a:hover {
+    color: #ffffff;
+    transform: translateX(5px); /* Efecto al pasar el cursor */
+}
+
+.footer-bottom {
+    text-align: center;
+    width: 100%;
+    font-family: 'Baskerville', serif;
+    margin-top: 22px;
+    font-size: 18px; /* Tamaño de fuente aumentado para texto en footer-bottom */
+}
+
+.social-icons a img {
+    width: 30px; /* Tamaño ligeramente mayor */
+    margin-right: 10px;
+    transition: transform 0.3s; /* Transición para íconos */
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1); /* Efecto de crecimiento al pasar el cursor */
+}
+
+@media (max-width: 992px) {
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links-column {
+        margin-bottom: 20px;
+    }
+}
